@@ -24,10 +24,11 @@ body {
 }
 
 .fetch-next-user-button {
+  font-size: 18px;
   padding: 5px;
   outline: none;
   background-color: #165664;
-  border: 1px solid #3e8fa0;
+  border: 2px solid #3e8fa0;
   color: #fff;
   border-radius: 3px;
 }
@@ -50,4 +51,49 @@ body {
 
 .img-container {
   margin-right: 10px;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-container button {
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid #8686d4;
+  border-radius: 5px;
+  background-color: #1e3455;
+  color: #fff;
+}
+
+.data-container {
+  background-color: #205757;
+  padding: 5px;
+  width: 22rem;
+  border-radius: 5px;
+}
+
+.data-container .user-name {
+  border-bottom: 2px solid #fff;
+  margin-bottom: 8px;
+}
+
+.data-container .user-email {
+  border-bottom: 2px solid #fff;
+}
+
+.img-container {
+  background-color: #205757;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.img-container .user-image {
+  margin: 7px;
+  border: 2px solid #fff;
+  border-radius: 5px;
 }
